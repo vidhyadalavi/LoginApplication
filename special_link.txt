@@ -1,0 +1,72 @@
+Javascript array methods tutorial-
+        https://www.freecodecamp.org/news/complete-introduction-to-the-most-useful-javascript-array-methods/
+
+Difference between var let const-
+        https://www.geeksforgeeks.org/difference-between-var-let-and-const-keywords-in-javascript/
+
+Javascript string method challenges-
+        https://javascript.plainenglish.io/javascript-coding-practice-challenges-strings-f2c9a98e8e5e
+
+For of loop-
+       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+
+Closure-
+      https://www.javascripttutorial.net/javascript-closure/
+      https://www.tutorialsteacher.com/javascript/closure-in-javascript
+
+Difference between Spread Operator and Rest operator
+      https://www.freecodecamp.org/news/javascript-rest-vs-spread-operators/
+
+Finding duplicate word from given string-
+     https://www.tutorialspoint.com/finding-duplicate-words-in-a-string-javascript
+
+Finding the First Non Repeating Character -
+     https://www.youtube.com/watch?v=tGoqKsPltxE
+
+interview questions-
+     https://www.edureka.co/blog/interview-questions/javascript-interview-questions/ 
+
+https://angular-templates.io/tutorials/about/angular-forms-and-validations
+
+lifecycle hooks in angular-
+	https://angular.io/guide/lifecycle-hooks
+
+Promises
+	https://youtu.be/aA4-VNZK2s0
+	https://codecraft.tv/courses/angular/es6-typescript/promises/
+
+How to push object in an array in angular
+	https://www.itsolutionstuff.com/post/how-to-push-object-in-array-in-angularexample.html
+
+Observables Vs Promises
+	https://youtu.be/P-kl0VoHj_k
+
+project in process-
+https://www.awesomescreenshot.com/video/8380245?key=720e5df4964874c250ae69bf07a1afcd
+crud demo3===https://www.awesomescreenshot.com/video/8422531?key=a1c8c413482644bf92b04a2ac7728a41
+
+Filter data from API
+https://stackblitz.com/edit/angular-filter-on-data-from-api?file=src%2Fapp%2Fapp.component.ts
+https://www.youtube.com/watch?v=-KslZ5LH8_A
+
+How to create Filter Pipe
+	https://www.youtube.com/watch?v=uUQfi1-g92Q
+
+dashboard
+	https://youtu.be/iEasMXu72No
+
+login application
+        https://www.awesomescreenshot.com/video/8515998?key=cfb88ebc1ad631f69b07e7cfed104f26
+https://www.awesomescreenshot.com/video/8536399?key=12aefdf8ea62c27570d5f055a377e96d
+
+crud application describe briefly
+https://www.freecodecamp.org/news/how-to-perform-crud-operations-using-angular-13/
+
+What is bootstrapping process?
+	https://www.tektutorialshub.com/angular/angular-bootstrapping-application/#:~:text=Bootstrapping%20is%20a%20technique%20of,displays%20%E2%80%9Capp%20works!%E2%80%9D. 
+
+Difference between subject and behaviour subject
+	https://devsuhas.com/2019/12/09/difference-between-subject-and-behaviour-subject-in-rxjs/
+
+difference between unicast and multicast
+	https://www.geeksforgeeks.org/difference-between-unicast-and-multicast/

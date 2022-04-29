@@ -1,0 +1,72 @@
+Difference for..in and for..of:
+              Both for..in and for..of are looping constructs which are used to iterate over data structures. The only difference between them is the entities they iterate over:
+
+for..in iterates over all enumerable property keys of an object
+for..of iterates over the values of an iterable object. Examples of iterable objects are arrays, strings, and NodeLists.
+
+Lexical scoping defines the scope of a variable by the position of that variable declared in the source code.
+_____________________________________________________________________________________________________________________________________________________________________
+What Should Go into Constructor vs NgOnlnit?
+Other than their usage, are you wondering what should go into constructor vs ngOnInit? The essential difference between the constructor and ngOnInit can be learned 
+by taking into consideration the following attributes.
+
+JS/TS Language
+
+ngOnInit Angular is just a method in the class. It is directly associated with Angular and is no different from any other method in the class.
+ It is upto the compiler if he wants to implement the method into the class or not. Constructor, on the other hand, is required to be implemented, no matter what.
+ Compiler especially calls it during the creation of a class instance because it can easily transpile JavaScript constructor functions. 
+Thus, in the contrast between typescript constructor vs ngOnInit, the constructor is considered as regardless, no matter if one implements it in the class or not.
+Lifecycle sequence
+After creating a component/directive by calling its constructor, Angular calls the lifecycle hook methods in the following sequence at specific moments:
+______________________________________________________________________________________________________________________________________________________________________
+****LIFECYCLE HOOKS****
+
+Hook	Purpose    and    Timing
+**ngOnChanges()-	
+Respond when Angular (re)sets data-bound input properties. The method receives a SimpleChanges object of current and previous property values.
+
+Called before ngOnInit() and whenever one or more data-bound input properties change.
+___________________________________________________________________________________________________________________________________________________
+**ngOnInit()-	
+Initialize the directive/component after Angular first displays the data-bound properties and sets the directive/component's input properties.
+
+Called once, after the first ngOnChanges().
+________________________________________________________________________________________________________________________________________________
+**ngDoCheck()-	
+Detect and act upon changes that Angular can't or won't detect on its own.
+
+Called during every change detection run, immediately after ngOnChanges() and ngOnInit().
+_____________________________________________________________________________________________
+**ngAfterContentInit()	-
+Respond after Angular projects external content into the component's view.
+
+Called once after the first ngDoCheck().
+
+A component-only hook.
+______________________________________________________________________________
+**ngAfterContentChecked()-	
+Respond after Angular checks the content projected into the component.
+
+Called after the ngAfterContentInit() and every subsequent ngDoCheck().
+
+A component-only hook.
+________________________________________________________________________
+**ngAfterViewInit()-	
+Respond after Angular initializes the component's views and child views.
+
+Called once after the first ngAfterContentChecked().
+
+A component-only hook.
+_______________________________________________________________________
+**ngAfterViewChecked()-	
+Respond after Angular checks the component's views and child views.
+
+Called after the ngAfterViewInit and every subsequent ngAfterContentChecked().
+
+A component-only hook.
+________________________________________________________________________________
+**ngOnDestroy-	
+Cleanup just before Angular destroys the directive/component. Unsubscribe Observables and detach event handlers to avoid memory leaks.
+
+Called just before Angular destroys the directive/component.
+____________________________________________________________________________________________________________________________________________________________________
